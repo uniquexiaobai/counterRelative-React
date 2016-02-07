@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+}
+#app {
+  width: 100%;
+  height: 100%;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.Show {
+  flex: 3;
+  background: #E3E7E9;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.expression {
+  font-size: 30px;
+  color: #64676A;
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  height: 70px;
+  margin-bottom: 30px;
+}
+.result {
+  font-size: 60px;
+  font-weight: 'bold';
+  color: #3D4044;
+  fontFamily: 'Arial';
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  height: 70px;
+  margin-top: 30px;
+}
+.title {
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.Ctrl {
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+.line {
+  flex: 1;
+  display: flex;
+}
+.btn {
+  flex: 1;
+  display: flex;
+  border: 1px solid #F0F2F4;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+.touch_start {
+  background-color: green;
+}
+.touch_end {
+  background-color: #FAFBFC;
+}
+.btn_static {
+  background: #FB752F;
+  opacity: 0.4;
+}
+.touch_start_back, .touch_start_clear {
+  background: yellow;
+}
+.touch_start_old {
+  background: #297964;
+}
+.touch_end_old {
+  background: #35A084;
+}
+
+.touch_start_young {
+  background: #409555;
+}
+.touch_end_young {
+  background: #4BCC6B;
+}
